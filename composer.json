@@ -1,11 +1,11 @@
 {
-    "name": "chenalon/laravel-async",
+    "name": "vxm/laravel-async",
     "description": "Provide an easy way to run code asynchronously for Laravel",
     "keywords": [
         "vxm",
         "laravel-async"
     ],
-    "homepage": "https://github.com/ChenAlon/laravel-async",
+    "homepage": "https://github.com/vuongxuongminh/laravel-async",
     "license": "MIT",
     "authors": [
         {
