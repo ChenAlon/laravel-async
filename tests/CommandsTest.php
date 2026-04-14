@@ -16,6 +16,6 @@ class CommandsTest extends TestCase
             'name' => 'TestJob',
         ])->assertExitCode(0);
 
-        $this->assertFileExists($this->getBasePath() . '/app/AsyncJobs/TestJob.php');
+        $this->assertFileExists($this->app->basePath() . '/app/AsyncJobs/TestJob.php');
     }
 }
