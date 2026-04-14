@@ -15,6 +15,8 @@ jobs:
                 php:
                     - 8.1
                     - 8.2
+                    - 8.3
+                    - 8.4
                 posix:
                     - true
                     - false
@@ -22,7 +24,7 @@ jobs:
         name: "${{ format('Tests on PHP {0} {1}', matrix.php, matrix.posix && 'with posix' || 'without posix') }}"
 
         steps:
-            -   uses: actions/checkout@v2
+            -   uses: actions/checkout@v4
 
             -   uses: shivammathur/setup-php@v2
                 with:
