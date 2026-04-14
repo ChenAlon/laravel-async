@@ -2,12 +2,8 @@ name: Tests
 
 on:
     workflow_dispatch:
-    push:
-        branches:
-            - laravel-13
-    pull_request:
-        branches:
-            - laravel-13
+    push: ~
+    pull_request: ~
 
 jobs:
     unit_tests:
